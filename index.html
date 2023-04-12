@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+
+  <link rel = "icon" href ="surpresa/images/favicon.ico" type = "image/x-icon">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <main id="main-holder">
+    <h1 id="login-header">ENTRAR</h1>
+    <img id="party" src="surpresa/images/party.svg" alt="">
+    <div id="login-error-msg-holder">
+      <p id="login-error-msg">Verifique as informações<span class="error-msg-second-line">e tente novamente</span></p>
+    </div>
+    
+    <form id="login-form">
+      <label for="resposta">Quem marcou o gol do primeiro título brasileiro conquistado pelo Internacional no Beira Rio?</label>
+        <input id="resposta" name="pergunta" type="text"class="login-form-field" placeholder="Digite a resposta" required />
+
+        <input type="text" name="username" id="username-field" class="login-form-field" placeholder="Digite o login">
+
+        <input type="password" name="password" id="password-field" class="login-form-field" placeholder="Digite a senha">
+      <input type="submit" value="Login" id="login-form-submit">
+    </form>
+  
+  </main>
+
+  <script defer src="script.js"></script>
+
+</body>
+
+</html>
